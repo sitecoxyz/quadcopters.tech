@@ -1,0 +1,56 @@
+# Site wide configuration
+
+title: "quadcopters.tech"
+description: "Coming Soon!"
+#if you modify locale please have a look at _data/messages.yml too
+locale: en
+#for meta name="author" :
+author: 
+
+#Target date in UTC / GMT
+countdown:
+  theme: flat-colors-wide
+  year: 2016
+  month: 2
+  day: 1
+  hour: 0
+  minute: 0
+
+color1: "#C02942"
+color2: "#D95B43"
+color3: "#ECD078"
+color4: "#542437"
+color5: "#53777A"
+
+# Theme2
+#color1: "#1D5ACC"
+#color2: "#CAF509"
+#color3: "#9AB816"
+#color4: "#76A321"
+#color5: "#0C1421"
+
+# Site owner
+owner:
+  name: siteCo.xyz
+  email: xyzsiteco@gmail.com
+  twitter: xyzsiteco
+  facebook: xyzsiteco
+  google_plus: xyzsiteco
+  instagram: xyzsiteco
+  url: http://siteco.xyz
+  aboutlink:
+    url: 
+    caption:
+
+
+# Jekyll configuration
+sass:
+  sass_dir: _sass
+  style: compressed
+permalink: /:categories/:title/
+kramdown:
+  toc_levels: 1..2
+highlighter: rouge
+
+
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
