@@ -1,55 +1,24 @@
 ---
-title: quadcopters.tech
-description: Coming Soon!
-locale: en
-author: 
-countdown:
-  theme: flat-colors-wide
-  year: 2016
-  month: 2
-  day: 1
-  hour: 0
-  minute: 0
-color1: "#951F2B"
-color2: "#F5F4D7"
-color3: "#E0DFB1"
-color4: "#A5A36C"
-color5: "#535233"
-owner:
-  name: siteCo.xyz
-  email: xyzsiteco@gmail.com
-  twitter: xyzsiteco
-  facebook: xyzsiteco
-  google_plus: xyzsiteco
-  instagram: xyzsiteco
-  url: http://siteco.xyz
-  aboutlink:
-    url: 
-    caption: 
+title: Quadcopters.tech
+email: your-email@domain.com
+author: sitecoxyz
+author_github: sitcoxyz
+amazon_tracking_id: loucalnet-20
+search_term: drones
+description: Coming Soon
+baseurl: "/"
+url: http://test.co
+paginate: 12
+home_bgfile: bg.jpg
 sass:
-  sass_dir: _sass
+  sass_dir: assets/css
   style: compressed
-permalink: "/:categories/:title/"
+markdown: kramdown
 kramdown:
-  toc_levels: 1..2
+  input: GFM
+  hard_wrap: false
 highlighter: rouge
+gems:
+- jekyll-paginate
 exclude:
-- lib
-- config.rb
-- ".sass-cache"
-- Capfile
-- config
-- log
-- Rakefile
-- Rakefile.rb
-- tmp
-- "*.sublime-project"
-- "*.sublime-workspace"
-- Gemfile
-- Gemfile.lock
-- README.md
-- LICENSE
-- node_modules
-- Gruntfile.js
-- package.json
-theme_num: '73'
+- vendor

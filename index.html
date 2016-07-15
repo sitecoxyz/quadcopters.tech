@@ -1,0 +1,48 @@
+---
+title: ''
+layout: default
+draft: false
+
+---
+<div class="section">
+  <section class="fixed v80" style='display: block; background-image: url("assets/images/{{ site.home_bgfile  }}");'>
+    <div class="container container-wide container-header">
+      <br><br>
+      <div class="white-text z-depth-5 radius-border opacity-background title-shadow">
+        <h1 class="header center">{{ site.title }} Store</h1>
+        <!--<div class="row center">
+          <h5 class="header col s12 light">{{ site.description }}</h5>
+          <h6 class="header col s12 dark"><i>by <a href="http://github.com/{{ site.author_github }}" target="_blank" alt="Author: {{ site.author }}">{{ site.author }}</a></i><br><br></h6>
+        </div>-->
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="v100">
+    <div class="container container-wide">
+
+      <h6>The following items have been curated for our visitors from Amazon.  Our store is currently under construction, so we picked the best in class products to give you suggestions as well as allow you to support our launch.  Through your purchases we will get referral credit from Amazon and also be able to estimate future demand for our store launch.</h6>
+
+      <br />
+
+      <script type="text/javascript">
+      amzn_assoc_placement = "adunit0";
+      amzn_assoc_enable_interest_ads = "true";
+      amzn_assoc_tracking_id = "{{ site.amazon_tracking_id }}";
+      amzn_assoc_ad_mode = "auto";
+      amzn_assoc_ad_type = "smart";
+      amzn_assoc_marketplace = "amazon";
+      amzn_assoc_region = "US";
+      amzn_assoc_linkid = "a3197c0b8c3025fcfbfdf827c56fca6c";
+      amzn_assoc_fallback_mode = {"type":"search","value":"{{ site.search_term }}"};
+      amzn_assoc_title = "Curated {{ site.search_term }} Suggestions";
+      amzn_assoc_default_category = "All";
+      </script>
+      <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
+
+    </div>
+  </section>
+
+</div>
